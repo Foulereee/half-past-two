@@ -1,0 +1,11 @@
+{
+  "name": "half-past-two",
+  "description": "凌晨两点半 · 深夜灵感日历",
+  "entry": "./functions/index.js",
+  "installCommand": "",
+  "buildCommand": "npm run build",
+  "assets": {
+    "directory": "./dist",
+    "notFoundStrategy": "singlePageApplication"
+  }
+}

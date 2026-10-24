@@ -1,0 +1,9 @@
+node_modules/
+.esa/
+*.log
+.env
+.env.*
+artifacts/
+dist/
+*.zip
+凌晨两点半-灵感备份-*.json

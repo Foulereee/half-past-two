@@ -1,0 +1,14 @@
+{
+  "name": "half-past-two",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "凌晨两点半 · 深夜灵感日历 · ESA Pages 与边缘函数原型",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check public/app.js && node --check functions/index.js && node scripts/verify.mjs"
+  }
+}
